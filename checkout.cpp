@@ -1,17 +1,10 @@
 
 #include <stdio.h>
-#include "checkout.h"
 #include <stdlib.h>
 #include <string.h>
 
-// Enum for Payment Modes
-typedef enum {
-    PayPal,
-    GooglePay,
-    CreditCard,
-    Unknown,
-    PaymentModeCount
-} PaymentMode;
+#include "checkout.h"
+
 
 // Function declarations
 void processPayPal(double amount) {
