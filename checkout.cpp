@@ -1,8 +1,7 @@
-#include "checkout.h"
+#include "PaymentCheckout.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
 
 // Function declarations
 void processPayPal(double amount) {
