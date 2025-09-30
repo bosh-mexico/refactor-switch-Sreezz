@@ -12,4 +12,4 @@ typedef enum {
 
 void checkout(PaymentMode mode, double amount);
 
-#endif// PAYMENTCHECKOUT_H_
+#endif  // PAYMENTCHECKOUT_H_
