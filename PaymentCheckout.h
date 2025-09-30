@@ -1,5 +1,5 @@
-#ifndef CHECKOUT_H_
-#define CHECKOUT_H_
+#ifndef PAYMENTCHECKOUT_H_
+#define PAYMENTCHECKOUT_H_
 
 // Enum for Payment Modes
 typedef enum {
@@ -12,4 +12,4 @@ typedef enum {
 
 void checkout(PaymentMode mode, double amount);
 
-#endif  // CHECKOUT_H_
+#endif// PAYMENTCHECKOUT_H_
