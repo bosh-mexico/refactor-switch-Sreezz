@@ -2,9 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
 #include "checkout.h"
-
 
 // Function declarations
 void processPayPal(double amount) {
